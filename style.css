@@ -52,6 +52,14 @@ header{
 
 
 
+main{
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .section__about{
     background-color: #000;
     color: #fff;
@@ -85,3 +93,13 @@ header{
     height: 500px;
     border-radius: 50%;
 }
+
+
+.section__skills{
+    background-color: #fff;
+    width: 90%;
+    margin-top: -100px;
+    padding: 2rem;
+    border-radius: 1.75rem;
+}
+
