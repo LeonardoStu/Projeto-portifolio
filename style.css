@@ -49,3 +49,39 @@ header{
 .a__navigation:hover{
    color: #000;
 }
+
+
+
+.section__about{
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+    padding: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section__about__content{
+    width: 50%;
+    padding: 1.5rem;
+}
+
+.section__about__title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.section__about__text{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.section__img__profile{
+    background-color: #888888;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
