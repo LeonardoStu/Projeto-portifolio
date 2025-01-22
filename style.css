@@ -103,3 +103,32 @@ main{
     border-radius: 1.75rem;
 }
 
+.section__title{
+    font-size: 2.75rem;
+    margin: 1.2rem 1.25rem;
+    font-weight: bold;
+}
+
+.section__skills__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.section__div{
+    width: 22%;
+    background-color: #d4d4d4;
+    margin: 1rem .5rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+.section__subtitle{
+    margin-bottom: 1rem;
+}
+
+.section__text{
+    font-size: 1.2rem;
+    text-align: start;
+}
