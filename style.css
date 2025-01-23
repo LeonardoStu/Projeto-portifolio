@@ -95,12 +95,25 @@ main{
 }
 
 
+
 .section__skills{
     background-color: #fff;
     width: 90%;
     margin-top: -100px;
     padding: 2rem;
     border-radius: 1.75rem;
+}
+
+.section__img__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: 1; 
 }
 
 .section__title{
@@ -122,13 +135,20 @@ main{
     margin: 1rem .5rem;
     padding: 1.5rem;
     border-radius: 1.5rem;
+    height: 24rem;
+    position: relative;
+    overflow: hidden;
 }
 
 .section__subtitle{
     margin-bottom: 1rem;
+    z-index: 10;
 }
 
 .section__text{
     font-size: 1.2rem;
     text-align: start;
+    height: 85%;
+    overflow: auto;
+    z-index: 10;
 }
