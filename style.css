@@ -104,18 +104,6 @@ main{
     border-radius: 1.75rem;
 }
 
-.section__img__div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    opacity: 0.5;
-    z-index: 1; 
-}
-
 .section__title{
     font-size: 2.75rem;
     margin: 1.2rem 1.25rem;
@@ -138,6 +126,29 @@ main{
     height: 24rem;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.section__div:hover{
+    background-color: #ffffff;
+    scale: 1.1;
+}
+
+.section__img__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    object-fit: cover;
+    width: 90%;
+    opacity: 0.4;
+    z-index: 1; 
+    transition: .5s;
+}
+
+.section__img__div:hover{
+    opacity: 0.1;
 }
 
 .section__subtitle{
