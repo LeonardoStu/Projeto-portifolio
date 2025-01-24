@@ -114,7 +114,7 @@ main{
     font-weight: bold;
 }
 
-.section__skills__content{
+.section__skill__content{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -167,3 +167,5 @@ main{
     overflow: auto;
     z-index: 10;
 }
+
+
