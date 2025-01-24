@@ -162,8 +162,6 @@ main{
 .section__text{
     font-size: 1.2rem;
     text-align: start;
-    height: 85%;
-    overflow: auto;
     z-index: 10;
 }
 
@@ -192,6 +190,10 @@ main{
 .section__img__job{
     width: 100%;
     border-radius: 1.5rem;
+}
+
+.div__content__sites > .section__subtitle {
+    margin-top: 1rem;
 }
 
 .section__tecnologias__usadas{
