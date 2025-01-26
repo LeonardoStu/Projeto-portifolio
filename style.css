@@ -7,10 +7,17 @@
 
 :root{
     --primary-color: #0DC8FA;
+    --background-color: #000;
+    --white-color: #fff;
+    --color-card: #d4d4d4;
 }
 
 html{
     scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
 }
 
 header{
@@ -26,14 +33,14 @@ header{
 }
 
 .span__firstname{
-    color: #fff;
+    color: var(--white-color);
     font-size: 1.75rem;
     font-weight: bold;
     transition: 0.4s;
 }
 
 .span__firstname:hover{
-    color: #000;
+    color: var(--background-color);
 }
 
 .span__lastname{
@@ -44,13 +51,13 @@ header{
 .a__navigation{
     padding: 0 1rem;
     text-decoration: none;
-    color: #fff;
+    color: var(--white-color);
     font-size: 1.2rem;
     transition: 0.4s;
 }
 
 .a__navigation:hover{
-   color: #000;
+   color: var(--background-color);
 }
 
 /* ---------------------------------------------------------------- */
@@ -64,8 +71,8 @@ main{
 }
 
 .section__about{
-    background-color: #000;
-    color: #fff;
+    background-color: var(--background-color);
+    color: var(--white-color);
     min-height: 115vh;
     padding: 8rem;
     display: flex;
@@ -100,7 +107,7 @@ main{
 /* ---------------------------------------------------------------- */
 
 .section__skills{
-    background-color: #fff;
+    background-color: var(--white-color);
     width: 90%;
     margin-top: -100px;
     padding: 2rem;
@@ -122,7 +129,7 @@ main{
 
 .section__div{
     width: 22%;
-    background-color: #d4d4d4;
+    background-color: var(--color-card);
     margin: 1rem .5rem;
     padding: 1.5rem;
     border-radius: 1.5rem;
@@ -179,12 +186,12 @@ main{
 
 .section__job__content > .section__div {
     width: 45%;
-    height: 38rem;
+    height: 40rem;
 }
 
 .section__job__content > .section__div:hover {
     scale: 1.01;
-    background-color: #fff;
+    background-color: var(--white-color);
 }
 
 .section__img__job{
@@ -196,13 +203,36 @@ main{
     margin-top: 1rem;
 }
 
-.section__tecnologias__usadas{
+.section__tecnologias__usadas {
     display: flex;
     position: absolute;
     margin-top: 1.5rem;
 }
 
-.div__tecnologias__usadas{
+.div__tecnologias__usadas {
     width: 10%;
     bottom: 0;
+}
+
+/* ---------------------------------------------------------------- */
+
+footer {
+    background-color: var(--background-color);
+    padding: 5rem;
+    text-align: center;
+}
+
+.section__img__contact {
+    width: 4%;
+}
+
+.section__contact > a:nth-child(2) {
+    margin: 0 1rem;
+}
+
+.section__copyright {
+    color: var(--white-color);
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
 }
