@@ -102,6 +102,8 @@ main {
   width: 500px;
   height: 500px;
   border-radius: 50%;
+  object-fit: cover;
+  object-position: bottom;
 }
 
 /* ---------------------------------------------------------------- */
